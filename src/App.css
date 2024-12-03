@@ -1,0 +1,71 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+/* @keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+} */
+
+.title {
+  font-size: 3.2em;
+  font-weight: bold;
+  line-height: 1.1;
+  color : #FFFF;
+}
+
+.gameBoard {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 2rem;
+  background-color:  rgb(243, 166, 52);
+}
+
+.square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  font-weight: bold;
+  height: 100px;
+  /* background-color: rgb(255, 255, 255); */
+  cursor: pointer;
+  border : 1px solid rgb(255, 255, 255);
+}
+
+.buttonReset {
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  font-size: 1.2em;
+  font-weight: bold;
+  background-color: rgb(243, 166, 52);
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.playerTurn {
+  font-size: 20px;
+  font-weight: bold;
+  color : #FFFF;
+}
