@@ -64,7 +64,7 @@
   justify-content: space-around;
 }
 
-.playerTurn {
+.currentPlayerSymbol {
   font-size: 20px;
   font-weight: bold;
   color : #FFFF;
